@@ -1,0 +1,6 @@
+@LangDuc.LearningService.Api_HostAddress = http://localhost:5095
+
+GET {{LangDuc.LearningService.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

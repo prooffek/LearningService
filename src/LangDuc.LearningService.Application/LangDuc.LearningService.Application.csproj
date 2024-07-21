@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\CommonLibraries\LangDuc.Common.Application\LangDuc.Common.Application.csproj" />
+    <ProjectReference Include="..\LangDuc.LearningService.Domain\LangDuc.LearningService.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="common\Dtos\" />
+  </ItemGroup>
+
+</Project>
